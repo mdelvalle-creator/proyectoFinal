@@ -1,0 +1,124 @@
+a {
+  font-size: 1rem; }
+
+a:hover {
+  animation: pulse;
+  animation-duration: 2.5s;
+  background-color: #6a8570;
+  color: #fefffb; }
+
+h1 {
+  font-family: "Assistant", sans-serif;
+  margin-left: 50px;
+  margin-top: 0%;
+  padding-top: 5%;
+  color: #fefffb; }
+
+.jumbotron {
+  background: linear-gradient(105deg, #316b5c, #c2d08a, #cec38a, #6a8570);
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 32s ease infinite;
+  -moz-animation: AnimationName 32s ease infinite;
+  animation: AnimationName 32s ease infinite; }
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 96% 0%; }
+  50% {
+    background-position: 5% 100%; }
+  100% {
+    background-position: 96% 0%; } }
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 96% 0%; }
+  50% {
+    background-position: 5% 100%; }
+  100% {
+    background-position: 96% 0%; } }
+
+@keyframes AnimationName {
+  0% {
+    background-position: 96% 0%; }
+  50% {
+    background-position: 5% 100%; }
+  100% {
+    background-position: 96% 0%; } }
+
+form {
+  background-color: #6a8570;
+  margin-right: auto;
+  border-radius: 3px;
+  background-color: #8da08f;
+  padding: 20px;
+  font-family: "Assistant", sans-serif;
+  color: aliceblue;
+  margin-left: 35%;
+  margin-right: 35%; }
+
+button {
+  background-color: #6a8570;
+  font-family: "Assistant", sans-serif;
+  color: aliceblue; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #6a8570;
+  border-color: #6a8570; }
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #6a8570;
+  border-color: #6a8570; }
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #a9d6b3;
+  border-color: #6a8570; }
+
+.btn-primary:focus {
+  color: #fff;
+  background-color: #6a8570;
+  border-color: #6a8570; }
+
+body {
+  font-family: "Assistant", sans-serif;
+  font-size: 1rem; }
+
+.bg-grey {
+  margin-bottom: 5%;
+  margin-top: 5%;
+  background: #51685f;
+  margin-right: 0;
+  margin-left: 0; }
+
+.logo-part {
+  margin-bottom: 40px;
+  font-family: "Assistant", sans-serif; }
+
+footer {
+  color: #f5fdfb; }
+
+footer p {
+  font-size: 1rem;
+  font-family: "Assistant", sans-serif; }
+
+p {
+  margin-left: 10%;
+  position: relative; }
+
+footer h6 {
+  font-family: "Assistant", sans-serif;
+  margin-bottom: 40px;
+  position: relative; }
+
+.btn-footer {
+  color: grey;
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 43px;
+  font-size: 1.25rem;
+  padding: 7px 30px;
+  line-height: 47px; }
